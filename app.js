@@ -5,7 +5,7 @@ window.onload = () => {
 }
 
 // Load alarm sound
-const alarmSound = new Audio('sounds/alarm.mp3');
+const alarmSound = new Audio('alarm.mp3');
 alarmSound.loop = true; // Make the alarm loop
 
 let interval; // Store interval so we can clear it later
